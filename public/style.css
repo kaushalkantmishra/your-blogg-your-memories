@@ -1,0 +1,132 @@
+*{
+    margin-top: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4e5f3;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    background-color: #f5efeecd;
+    color: rgb(193, 7, 7);
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.post, .post1 {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+.post {
+    background-color: rgba(224, 220, 220, 0.995);
+}
+
+.post1 {
+    background-color: rgba(247, 237, 237, 0.995);
+}
+
+.user {
+    color: #fff;
+    font-style: italic;
+    background-color: #070606;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content {
+    font-style: normal;
+    font-size: small;
+    font-weight: lighter;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    color: #333;
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+p {
+    color: #333;
+    margin: 5px 0;
+}
+
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: #f5f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #eeddda;
+    color: rgb(209, 8, 8);
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(240, 33, 33);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link-spacing {
+    margin-right: 10px;
+}
+input{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.center-button {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+img{
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+}

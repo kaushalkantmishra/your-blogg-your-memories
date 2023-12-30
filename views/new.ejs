@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Create your Post here !!</h2>
+    <form method="post" action="/posts" enctype="multipart/form-data">
+        <div class="input">
+            <input type="text" placeholder="enter username" name="username"><br><br>
+        </div>
+        <textarea cols="100px" rows="10px"  name="content" placeholder="write your content"></textarea><br>
+        <!-- Input field for file upload -->
+        <input type="file" name="photo" accept="image/*">
+        <br>
+        <button>Submit Post</button>
+    </form>
+</body>
+</html>
